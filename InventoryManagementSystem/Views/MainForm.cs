@@ -16,5 +16,25 @@ namespace InventoryManagementSystem
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb1Welcome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

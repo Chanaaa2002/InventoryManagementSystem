@@ -28,13 +28,127 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lb1Welcome = new System.Windows.Forms.Label();
+            this.btnProducts = new System.Windows.Forms.Button();
+            this.btnSuppliers = new System.Windows.Forms.Button();
+            this.btnOrders = new System.Windows.Forms.Button();
+            this.btnReports = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // lb1Welcome
+            // 
+            this.lb1Welcome.AutoSize = true;
+            this.lb1Welcome.BackColor = System.Drawing.Color.Transparent;
+            this.lb1Welcome.Font = new System.Drawing.Font("Yu Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb1Welcome.Location = new System.Drawing.Point(376, 48);
+            this.lb1Welcome.Name = "lb1Welcome";
+            this.lb1Welcome.Size = new System.Drawing.Size(297, 77);
+            this.lb1Welcome.TabIndex = 0;
+            this.lb1Welcome.Text = "Welcome";
+            this.lb1Welcome.Click += new System.EventHandler(this.lb1Welcome_Click);
+            // 
+            // btnProducts
+            // 
+            this.btnProducts.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnProducts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProducts.Location = new System.Drawing.Point(247, 159);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Size = new System.Drawing.Size(175, 73);
+            this.btnProducts.TabIndex = 1;
+            this.btnProducts.Text = "Manage Products";
+            this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.btnProducts.UseVisualStyleBackColor = false;
+            this.btnProducts.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnSuppliers
+            // 
+            this.btnSuppliers.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnSuppliers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSuppliers.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSuppliers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuppliers.Location = new System.Drawing.Point(639, 159);
+            this.btnSuppliers.Name = "btnSuppliers";
+            this.btnSuppliers.Size = new System.Drawing.Size(175, 73);
+            this.btnSuppliers.TabIndex = 2;
+            this.btnSuppliers.Text = "Manage Suppliers";
+            this.btnSuppliers.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.btnSuppliers.UseVisualStyleBackColor = false;
+            // 
+            // btnOrders
+            // 
+            this.btnOrders.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnOrders.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrders.Location = new System.Drawing.Point(247, 281);
+            this.btnOrders.Name = "btnOrders";
+            this.btnOrders.Size = new System.Drawing.Size(175, 73);
+            this.btnOrders.TabIndex = 3;
+            this.btnOrders.Text = "Manage Orders";
+            this.btnOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.btnOrders.UseVisualStyleBackColor = false;
+            // 
+            // btnReports
+            // 
+            this.btnReports.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.Location = new System.Drawing.Point(639, 281);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(175, 73);
+            this.btnReports.TabIndex = 4;
+            this.btnReports.Text = "View Reports";
+            this.btnReports.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.btnReports.UseVisualStyleBackColor = false;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.Honeydew;
+            this.btnLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.Location = new System.Drawing.Point(475, 409);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(122, 53);
+            this.btnLogout.TabIndex = 6;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackgroundImage = global::InventoryManagementSystem.Properties.Resources.bg;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1089, 515);
+            this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnReports);
+            this.Controls.Add(this.btnOrders);
+            this.Controls.Add(this.btnSuppliers);
+            this.Controls.Add(this.btnProducts);
+            this.Controls.Add(this.lb1Welcome);
+            this.Name = "MainForm";
+            this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lb1Welcome;
+        private System.Windows.Forms.Button btnProducts;
+        private System.Windows.Forms.Button btnSuppliers;
+        private System.Windows.Forms.Button btnOrders;
+        private System.Windows.Forms.Button btnReports;
+        private System.Windows.Forms.Button btnLogout;
     }
 }
 
