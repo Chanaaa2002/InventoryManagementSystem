@@ -38,9 +38,9 @@
             this.btnClear4 = new System.Windows.Forms.Button();
             this.btnBack5 = new System.Windows.Forms.Button();
             this.dataGridSuppliers1 = new System.Windows.Forms.DataGridView();
-            this.lblSuppliers1 = new System.Windows.Forms.Label();
             this.SupplierName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ContactInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblSuppliers1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSuppliers1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,17 +156,6 @@
             this.dataGridSuppliers1.TabIndex = 9;
             this.dataGridSuppliers1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridSuppliers1_CellContentClick);
             // 
-            // lblSuppliers1
-            // 
-            this.lblSuppliers1.AutoSize = true;
-            this.lblSuppliers1.BackColor = System.Drawing.Color.Transparent;
-            this.lblSuppliers1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSuppliers1.Location = new System.Drawing.Point(40, 53);
-            this.lblSuppliers1.Name = "lblSuppliers1";
-            this.lblSuppliers1.Size = new System.Drawing.Size(152, 32);
-            this.lblSuppliers1.TabIndex = 10;
-            this.lblSuppliers1.Text = "Suppliers:";
-            // 
             // SupplierName
             // 
             this.SupplierName.HeaderText = "Supplier Name";
@@ -180,6 +169,17 @@
             this.ContactInfo.MinimumWidth = 6;
             this.ContactInfo.Name = "ContactInfo";
             this.ContactInfo.Width = 125;
+            // 
+            // lblSuppliers1
+            // 
+            this.lblSuppliers1.AutoSize = true;
+            this.lblSuppliers1.BackColor = System.Drawing.Color.Transparent;
+            this.lblSuppliers1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSuppliers1.Location = new System.Drawing.Point(40, 53);
+            this.lblSuppliers1.Name = "lblSuppliers1";
+            this.lblSuppliers1.Size = new System.Drawing.Size(152, 32);
+            this.lblSuppliers1.TabIndex = 10;
+            this.lblSuppliers1.Text = "Suppliers:";
             // 
             // SuppliersForm
             // 

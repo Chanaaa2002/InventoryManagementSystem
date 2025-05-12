@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\InventoryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\supplierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\supplierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|C:\\Users\\LENOVO\\InventoryManagementSystem\\inventorymanagementsystem\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\supplierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\supplierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\ordersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\ordersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|C:\\Users\\LENOVO\\InventoryManagementSystem\\inventorymanagementsystem\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrdersForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\OrdersForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\OrdersForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\OrdersForm.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\OrdersForm.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAADgv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:43:14.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\OrdersForm.Designer.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\OrdersForm.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\OrdersForm.Designer.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\OrdersForm.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwMEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:16:01.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\MainForm.cs",
               "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\MainForm.cs",
@@ -42,19 +80,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\LoginForm.cs",
               "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\LoginForm.cs",
               "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\LoginForm.cs [Design]",
               "RelativeToolTip": "InventoryManagementSystem\\Views\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:14:07.076Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-12T18:14:07.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SupplierForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\SupplierForm.cs",
               "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\SupplierForm.cs",
@@ -62,6 +99,18 @@
               "RelativeToolTip": "InventoryManagementSystem\\Views\\SupplierForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T20:37:31.248Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\OrdersForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\OrdersForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\OrdersForm.cs [Design]",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\OrdersForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:16:00.051Z",
               "EditorCaption": " [Design]"
             }
           ]
