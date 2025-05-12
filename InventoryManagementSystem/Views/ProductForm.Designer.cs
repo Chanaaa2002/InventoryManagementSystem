@@ -1,6 +1,6 @@
 ﻿namespace InventoryManagementSystem
 {
-    partial class ProductForm
+    partial class SuppliersForm
     {
         /// <summary>
         /// Required designer variable.
@@ -15,7 +15,6 @@
         {
             if (disposing && (components != null))
             {
-                components.Dispose();
             }
             base.Dispose(disposing);
         }
@@ -28,8 +27,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtName1 = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
