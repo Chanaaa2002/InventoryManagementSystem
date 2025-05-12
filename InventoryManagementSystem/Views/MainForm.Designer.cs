@@ -1,6 +1,6 @@
 ﻿namespace InventoryManagementSystem
 {
-    partial class MainForm
+    partial class ProductForm
     {
         /// <summary>
         /// Required designer variable.
@@ -46,7 +46,6 @@
             this.lb1Welcome.Size = new System.Drawing.Size(297, 77);
             this.lb1Welcome.TabIndex = 0;
             this.lb1Welcome.Text = "Welcome";
-            this.lb1Welcome.Click += new System.EventHandler(this.lb1Welcome_Click);
             // 
             // btnProducts
             // 
@@ -61,7 +60,7 @@
             this.btnProducts.Text = "Manage Products";
             this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btnProducts.UseVisualStyleBackColor = false;
-            this.btnProducts.Click += new System.EventHandler(this.button1_Click);
+
             // 
             // btnSuppliers
             // 
@@ -118,8 +117,7 @@
             this.btnLogout.TabIndex = 6;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
+
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -135,7 +133,7 @@
             this.Controls.Add(this.lb1Welcome);
             this.Name = "MainForm";
             this.Text = "Dashboard";
-            this.Load += new System.EventHandler(this.MainForm_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

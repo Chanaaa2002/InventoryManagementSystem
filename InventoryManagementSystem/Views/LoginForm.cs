@@ -44,7 +44,7 @@ namespace InventoryManagementSystem.Views
             if (user != null)
             {
                 MessageBox.Show($"Welcome {user.Role}", "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                MainForm main = new MainForm();
+                ProductForm main = new MainForm();
                 main.Show();
                 this.Hide();  // hide login after success
             }

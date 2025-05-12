@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\InventoryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\lenovo\\inventorymanagementsystem\\inventorymanagementsystem\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88A7CC55-D31A-45F3-8C3C-C997D41E605A}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\ProductForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\ProductForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\ProductForm.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\ProductForm.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAArwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:20:43.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\MainForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\MainForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\MainForm.cs [Design]",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:14:27.994Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\LoginForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\LoginForm.cs [Design]",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:14:07.076Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\ProductForm.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\ProductForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\ProductForm.cs [Design]",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\ProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:09:12.119Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
