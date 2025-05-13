@@ -27,8 +27,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtName1 = new System.Windows.Forms.TextBox();
-            this.lblName = new System.Windows.Forms.Label();
+            //this.txtName1 = new System.Windows.Forms.TextBox();
+            //this.lblName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();

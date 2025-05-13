@@ -106,5 +106,10 @@ namespace InventoryManagementSystem
         {
 
         }
+
+        private void btnAdd1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

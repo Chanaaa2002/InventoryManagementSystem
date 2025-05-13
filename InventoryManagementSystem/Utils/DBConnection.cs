@@ -10,7 +10,7 @@ namespace InventoryManagementSystem.Utils
 {
     public class DBConnection
     {
-        private static string connStr = "server=localhost;user=Dinuka;password=dinuka3698;database=inventory_system;";
+        private static string connStr = "server=localhost;user=Chanaka;password=dinuka3698;database=inventory_system;";
         public static MySqlConnection GetConnection()
         {
             MySqlConnection conn = new MySqlConnection(connStr);

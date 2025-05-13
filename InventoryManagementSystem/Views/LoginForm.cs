@@ -38,19 +38,19 @@ namespace InventoryManagementSystem.Views
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text;
 
-            UserController controller = new UserController();
-            User user = controller.ValidateLogin(username, password);
+            User loggedUser = userController.ValidateLogin(username, password);
 
-            if (user != null)
+            if (loggedUser != null)
             {
-                MessageBox.Show($"Welcome {user.Role}", "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                SuppliersForm main = new MainForm();
+                MessageBox.Show($"Welcome, {loggedUser.Role}");
+
+                MainForm main = new MainForm();
                 main.Show();
-                this.Hide();  // hide login after success
+                this.Hide();
             }
             else
             {
-                lblMessage.Text = "Invalid username or password!";
+                MessageBox.Show("Invalid username or password!", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
