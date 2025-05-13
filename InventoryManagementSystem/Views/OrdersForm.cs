@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InventoryManagementSystem
 {
-    public partial class SuppliersForm : Form
+    public partial class OrdersForm : Form
     {
-        public SuppliersForm()
+        public OrdersForm()
         {
             InitializeComponent();
         }
