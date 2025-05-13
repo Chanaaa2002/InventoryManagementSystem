@@ -51,7 +51,7 @@
             this.lblName.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.Location = new System.Drawing.Point(662, 142);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(127, 21);
+            this.lblName.Size = new System.Drawing.Size(157, 26);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Supplier Name";
             // 
@@ -62,7 +62,7 @@
             this.lblContact.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContact.Location = new System.Drawing.Point(671, 201);
             this.lblContact.Name = "lblContact";
-            this.lblContact.Size = new System.Drawing.Size(105, 21);
+            this.lblContact.Size = new System.Drawing.Size(133, 26);
             this.lblContact.TabIndex = 1;
             this.lblContact.Text = "Contact Info";
             // 
@@ -71,15 +71,16 @@
             this.txtName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName1.Location = new System.Drawing.Point(851, 142);
             this.txtName1.Name = "txtName1";
-            this.txtName1.Size = new System.Drawing.Size(200, 24);
+            this.txtName1.Size = new System.Drawing.Size(200, 28);
             this.txtName1.TabIndex = 2;
+            this.txtName1.TextChanged += new System.EventHandler(this.txtName1_TextChanged);
             // 
             // txtContact1
             // 
             this.txtContact1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContact1.Location = new System.Drawing.Point(851, 201);
             this.txtContact1.Name = "txtContact1";
-            this.txtContact1.Size = new System.Drawing.Size(200, 24);
+            this.txtContact1.Size = new System.Drawing.Size(200, 28);
             this.txtContact1.TabIndex = 3;
             // 
             // btnAdd1
@@ -178,7 +179,7 @@
             this.lblSuppliers1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSuppliers1.Location = new System.Drawing.Point(40, 53);
             this.lblSuppliers1.Name = "lblSuppliers1";
-            this.lblSuppliers1.Size = new System.Drawing.Size(119, 26);
+            this.lblSuppliers1.Size = new System.Drawing.Size(152, 32);
             this.lblSuppliers1.TabIndex = 10;
             this.lblSuppliers1.Text = "Suppliers:";
             // 

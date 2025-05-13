@@ -44,7 +44,7 @@ namespace InventoryManagementSystem.Views
             {
                 MessageBox.Show($"Welcome, {loggedUser.Role}");
 
-                MainForm main = new MainForm();
+                MainForm main = new MainForm(loggedUser);
                 main.Show();
                 this.Hide();
             }
