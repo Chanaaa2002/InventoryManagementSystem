@@ -52,13 +52,17 @@
             // 
             // txtName
             // 
+            this.txtName = new System.Windows.Forms.TextBox();
             this.txtName.Location = new System.Drawing.Point(159, 76);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(226, 22);
             this.txtName.TabIndex = 0;
+            this.Controls.Add(this.txtName);
             // 
             // label1
             // 
+            this.label1 = new System.Windows.Forms.Label();
+
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -68,6 +72,7 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Controls.Add(this.label1);
             // 
             // label2
             // 

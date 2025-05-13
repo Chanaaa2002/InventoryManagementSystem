@@ -51,17 +51,30 @@ namespace InventoryManagementSystem
 
         private void btnSuppliers_Click(object sender, EventArgs e)
         {
-
+            SupplierForm sf = new SupplierForm();
+            sf.Show();
         }
 
         private void btnProducts_Click(object sender, EventArgs e)
         {
-
+            ProductForm pf = new ProductForm();
+            pf.Show();
         }
 
         private void lblWelcome_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+            OrdersForm of = new OrdersForm();
+            of.Show();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }

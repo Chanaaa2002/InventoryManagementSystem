@@ -54,8 +54,12 @@
             this.btnProducts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnProducts.Location = new System.Drawing.Point(247, 136);
             this.btnProducts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            
+>>>>>>> abfb852 (Small Changes)
             this.btnProducts.Name = "btnProducts";
             this.btnProducts.Size = new System.Drawing.Size(175, 73);
             this.btnProducts.TabIndex = 1;
@@ -70,8 +74,12 @@
             this.btnSuppliers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSuppliers.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSuppliers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnSuppliers.Location = new System.Drawing.Point(639, 136);
             this.btnSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            
+>>>>>>> abfb852 (Small Changes)
             this.btnSuppliers.Name = "btnSuppliers";
             this.btnSuppliers.Size = new System.Drawing.Size(175, 73);
             this.btnSuppliers.TabIndex = 2;
@@ -86,14 +94,19 @@
             this.btnOrders.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnOrders.Location = new System.Drawing.Point(247, 281);
             this.btnOrders.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+           
+>>>>>>> abfb852 (Small Changes)
             this.btnOrders.Name = "btnOrders";
             this.btnOrders.Size = new System.Drawing.Size(175, 73);
             this.btnOrders.TabIndex = 3;
             this.btnOrders.Text = "Manage Orders";
             this.btnOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btnOrders.UseVisualStyleBackColor = false;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
             // 
             // btnReports
             // 
@@ -101,8 +114,12 @@
             this.btnReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.btnReports.Location = new System.Drawing.Point(639, 281);
             this.btnReports.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+            
+>>>>>>> abfb852 (Small Changes)
             this.btnReports.Name = "btnReports";
             this.btnReports.Size = new System.Drawing.Size(175, 73);
             this.btnReports.TabIndex = 4;
@@ -123,6 +140,7 @@
             this.btnLogout.TabIndex = 6;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // MainForm
             // 
@@ -137,7 +155,11 @@
             this.Controls.Add(this.btnSuppliers);
             this.Controls.Add(this.btnProducts);
             this.Controls.Add(this.lblWelcome);
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+=======
+           
+>>>>>>> abfb852 (Small Changes)
             this.Name = "MainForm";
             this.Text = "Dashboard";
             this.ResumeLayout(false);
