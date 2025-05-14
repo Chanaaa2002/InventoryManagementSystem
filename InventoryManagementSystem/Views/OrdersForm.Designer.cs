@@ -49,7 +49,7 @@
             this.lblSupplier.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSupplier.Location = new System.Drawing.Point(63, 117);
             this.lblSupplier.Name = "lblSupplier";
-            this.lblSupplier.Size = new System.Drawing.Size(93, 26);
+            this.lblSupplier.Size = new System.Drawing.Size(76, 21);
             this.lblSupplier.TabIndex = 0;
             this.lblSupplier.Text = "Supplier";
             // 
@@ -60,7 +60,7 @@
             this.lblProduct.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProduct.Location = new System.Drawing.Point(63, 188);
             this.lblProduct.Name = "lblProduct";
-            this.lblProduct.Size = new System.Drawing.Size(89, 26);
+            this.lblProduct.Size = new System.Drawing.Size(71, 21);
             this.lblProduct.TabIndex = 1;
             this.lblProduct.Text = "Product";
             // 
@@ -71,7 +71,7 @@
             this.lblQuantity.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuantity.Location = new System.Drawing.Point(63, 259);
             this.lblQuantity.Name = "lblQuantity";
-            this.lblQuantity.Size = new System.Drawing.Size(96, 26);
+            this.lblQuantity.Size = new System.Drawing.Size(77, 21);
             this.lblQuantity.TabIndex = 2;
             this.lblQuantity.Text = "Quantity";
             // 
@@ -82,7 +82,7 @@
             this.label9.Font = new System.Drawing.Font("Yu Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(41, 45);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(115, 36);
+            this.label9.Size = new System.Drawing.Size(94, 29);
             this.label9.TabIndex = 3;
             this.label9.Text = "Orders:";
             // 
@@ -92,8 +92,9 @@
             this.cmbSuppliers.FormattingEnabled = true;
             this.cmbSuppliers.Location = new System.Drawing.Point(178, 113);
             this.cmbSuppliers.Name = "cmbSuppliers";
-            this.cmbSuppliers.Size = new System.Drawing.Size(200, 30);
+            this.cmbSuppliers.Size = new System.Drawing.Size(200, 25);
             this.cmbSuppliers.TabIndex = 4;
+            this.cmbSuppliers.SelectedIndexChanged += new System.EventHandler(this.cmbSuppliers_SelectedIndexChanged);
             // 
             // cmbProducts
             // 
@@ -101,16 +102,18 @@
             this.cmbProducts.FormattingEnabled = true;
             this.cmbProducts.Location = new System.Drawing.Point(178, 184);
             this.cmbProducts.Name = "cmbProducts";
-            this.cmbProducts.Size = new System.Drawing.Size(200, 30);
+            this.cmbProducts.Size = new System.Drawing.Size(200, 25);
             this.cmbProducts.TabIndex = 5;
+            this.cmbProducts.SelectedIndexChanged += new System.EventHandler(this.cmbProducts_SelectedIndexChanged);
             // 
             // txtQuantity
             // 
             this.txtQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuantity.Location = new System.Drawing.Point(178, 257);
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(200, 28);
+            this.txtQuantity.Size = new System.Drawing.Size(200, 24);
             this.txtQuantity.TabIndex = 6;
+            this.txtQuantity.TextChanged += new System.EventHandler(this.txtQuantity_TextChanged);
             // 
             // btnAddToOrder
             // 
@@ -123,16 +126,17 @@
             this.btnAddToOrder.TabIndex = 7;
             this.btnAddToOrder.Text = "Add To Order";
             this.btnAddToOrder.UseVisualStyleBackColor = false;
+            this.btnAddToOrder.Click += new System.EventHandler(this.btnAddToOrder_Click);
             // 
             // lstOrderItems
             // 
             this.lstOrderItems.BackColor = System.Drawing.Color.Ivory;
             this.lstOrderItems.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstOrderItems.FormattingEnabled = true;
-            this.lstOrderItems.ItemHeight = 22;
+            this.lstOrderItems.ItemHeight = 17;
             this.lstOrderItems.Location = new System.Drawing.Point(463, 74);
             this.lstOrderItems.Name = "lstOrderItems";
-            this.lstOrderItems.Size = new System.Drawing.Size(570, 290);
+            this.lstOrderItems.Size = new System.Drawing.Size(570, 276);
             this.lstOrderItems.TabIndex = 8;
             this.lstOrderItems.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -147,7 +151,7 @@
             this.btnPlaceOrder.TabIndex = 9;
             this.btnPlaceOrder.Text = "Place Order";
             this.btnPlaceOrder.UseVisualStyleBackColor = false;
-            this.btnPlaceOrder.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnPlaceOrder.Click += new System.EventHandler(this.btnPlaceOrder_Click);
             // 
             // btnClear1
             // 
@@ -160,6 +164,7 @@
             this.btnClear1.TabIndex = 10;
             this.btnClear1.Text = "Clear";
             this.btnClear1.UseVisualStyleBackColor = false;
+            this.btnClear1.Click += new System.EventHandler(this.btnClear1_Click);
             // 
             // btnBack1
             // 
@@ -172,8 +177,9 @@
             this.btnBack1.TabIndex = 11;
             this.btnBack1.Text = "Back";
             this.btnBack1.UseVisualStyleBackColor = false;
+            this.btnBack1.Click += new System.EventHandler(this.btnBack1_Click);
             // 
-            // SuppliersForm
+            // OrdersForm
             // 
             this.BackgroundImage = global::InventoryManagementSystem.Properties.Resources.bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -190,7 +196,7 @@
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblProduct);
             this.Controls.Add(this.lblSupplier);
-            this.Name = "SuppliersForm";
+            this.Name = "OrdersForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

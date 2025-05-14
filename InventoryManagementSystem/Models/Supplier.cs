@@ -20,5 +20,7 @@ namespace InventoryManagementSystem.Models
             Name = name;
             ContactInfo = contactInfo;
         }
+
+        public override string ToString() => Name;
     }
 }

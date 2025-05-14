@@ -24,7 +24,8 @@ namespace InventoryManagementSystem.Models
             Quantity = quantity;
             Price = price;
         }
+        public override string ToString() => Name;
 
-        
+
     }
 }
