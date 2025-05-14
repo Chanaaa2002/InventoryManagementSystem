@@ -57,7 +57,7 @@ namespace InventoryManagementSystem
 
         private void btnProducts_Click(object sender, EventArgs e)
         {
-            ProductForm pf = new ProductForm();
+            ProductForm pf = new ProductForm(currentUser);
             pf.Show();
         }
 
@@ -75,6 +75,11 @@ namespace InventoryManagementSystem
         private void btnLogout_Click(object sender, EventArgs e)
         {
             Application.Restart();
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -98,7 +98,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ProductController .cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Utils\DBConnection.cs" />
     <Compile Include="Views\LoginForm.cs">
